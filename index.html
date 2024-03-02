@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fill the Form Below</title>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header-title">Fill the Form Below</h1>
+            <div>
+                <button class="new-quote-btn" id="reset-btn">Reset</button>
+                <button class="new-quote-btn" id="submit-btn">Submit</button>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="input-group">
+            <label class="lead" for="name-inp">Whats Your Name?</label>
+            <input type="text" class="text-input" id="name-inp" placeholder="Enter Your Name">
+        </div>
+        <p class="result-body" id="result-body">Hello
+            <strong><span id="name-output"></span></strong>
+            , Welcome to our Application
+        </p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
